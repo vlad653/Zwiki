@@ -59,11 +59,11 @@
 	   <li><a href="http://mon.main.zelenaya.net" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IPTV</a></li>
            <li class="divider"></li>
 	   <li role="presentation" class="dropdown-header">Формула связи</li>
-           <li><a href="http://nagios.iformula.ru">Nagios</a></li>
+           <li><a href="http://nagios.iformula.ru/cgi-bin/nagios3" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Nagios</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Содержание <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Топология сети<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
@@ -75,7 +75,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Содержание <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">IP-TV <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
@@ -87,7 +87,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Содержание <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Коммутаторы<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
@@ -99,7 +99,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Содержание <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Контактная информация<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
@@ -138,7 +138,20 @@
         });
     });
 });></script>
-  </body>
+<div class="row">
+<div class="col-md-6">
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item" src="https://zabbix.ooonet.ru/zabbix.php?action=dashboard.view"></iframe>
+</div>
+</div>
+<div class="col-md-6">
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item" src="https://nagios.ooonet.ru/"></iframe>
+</div>
+</div>
+</div>
+
+</body>
 </html>
 
 
