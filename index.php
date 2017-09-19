@@ -43,6 +43,7 @@
             <li><a href="https://erp.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>ERPCore</a></li>
             <li><a href="https://stavropol.groupw.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>GW</a></li>
 	    <li><a href="https://us.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>UserSide</a></li>
+            <li><a href="https://ews1.zelenaya.net" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>EWS</a></li>
             <li class="divider"></li>
 	    <li role="presentation" class="dropdown-header">Невиномыск</li>
             <li><a href="https://erp.ooonet.ru/userside-nev/oper/admin.php" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>UserSide</a></li>
@@ -62,28 +63,18 @@
            <li><a href="http://nagios.iformula.ru/cgi-bin/nagios3" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Nagios</a></li>
           </ul>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Топология сети<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li class="divider"></li>
-            <li><a href="#">4</a></li>
-            <li class="divider"></li>
-            <li><a href="#">5</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
+         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">IP-TV <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
+          <li role="presentation" class="dropdown-header" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Ставрополь</li>
+            <li><a href="#">Облачный портал</a></li>
+            <li><a href="https://admin.zelenaya.iptvportal.ru/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IpTv_Portal</a></li>
+            <li><a href="http://mp.iptv/stalker_portal" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Stalker</a></li>
             <li class="divider"></li>
-            <li><a href="#">4</a></li>
+            <li role="presentation" class="dropdown-header" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Невинка</li>
+            <li><a href="http://admin.nevinka.iptvportal.ru/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IpTv_Portal</a></li>
             <li class="divider"></li>
-            <li><a href="#">5</a></li>
+            <li><a href="#">Zwiki IPTV</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -150,7 +141,6 @@
 </div>
 </div>
 </div>
-
 </body>
 </html>
 
