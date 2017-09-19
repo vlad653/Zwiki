@@ -40,39 +40,39 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ресурсы ЗТ<b class="caret"></b></a>
           <ul class="dropdown-menu">
            <li role="presentation" class="dropdown-header">Ставрополь</li>
-            <li><a href="https://erp.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>ERPCore</a></li>
-            <li><a href="https://stavropol.groupw.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>GW</a></li>
-	    <li><a href="https://us.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>UserSide</a></li>
-            <li><a href="https://ews1.zelenaya.net" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>EWS</a></li>
+            <li><a href="/ERPCore.php">ERPCore</a></li>
+            <li><a href="/GW.php">GW</a></li>
+	    <li><a href="/UserSide.php">UserSide</a></li>
+            <li><a href="/EWS.php">EWS</a></li>
             <li class="divider"></li>
 	    <li role="presentation" class="dropdown-header">Невиномыск</li>
-            <li><a href="https://erp.ooonet.ru/userside-nev/oper/admin.php" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>UserSide</a></li>
-            <li><a href="https://noc.ooonet.ru/report-gss/switch_status/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>switch_status</a></li>
-            <li><a href="https://noc.ooonet.ru/report-gss/user_status/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>user_status</a></li>
+            <li><a href="UserSide.php">UserSide</a></li>
+            <li><a href="/switch_status.php">switch_status</a></li>
+            <li><a href="/user_status.php">user_status</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Мониторинг<b class="caret"></b></a>
           <ul class="dropdown-menu">
            <li role="presentation" class="dropdown-header">Ставрополь</li>
-           <li><a href="https://zabbix.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Zabbix</a></li>
-           <li><a href="https://nagios.ooonet.ru" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Nagios</a></li>
-	   <li><a href="http://mon.main.zelenaya.net" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IPTV</a></li>
+           <li><a href="/Zabbix.php">Zabbix</a></li>
+           <li><a href="/Nagios.php">Nagios</a></li>
+	   <li><a href=/IPTV.php>IPTV</a></li>
            <li class="divider"></li>
 	   <li role="presentation" class="dropdown-header">Формула связи</li>
-           <li><a href="http://nagios.iformula.ru/cgi-bin/nagios3" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Nagios</a></li>
+           <li><a href="/Nagios.php">Nagios</a></li>
           </ul>
         </li>
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">IP-TV <b class="caret"></b></a>
           <ul class="dropdown-menu">
-          <li role="presentation" class="dropdown-header" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Ставрополь</li>
+          <li role="presentation" class="dropdown-header">Ставрополь</li>
             <li><a href="#">Облачный портал</a></li>
-            <li><a href="https://admin.zelenaya.iptvportal.ru/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IpTv_Portal</a></li>
-            <li><a href="http://mp.iptv/stalker_portal" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Stalker</a></li>
+            <li><a href="/IpTv_Portal.php">IpTv_Portal</a></li>
+            <li><a href="/Stalker.php">Stalker</a></li>
             <li class="divider"></li>
-            <li role="presentation" class="dropdown-header" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>Невинка</li>
-            <li><a href="http://admin.nevinka.iptvportal.ru/" rel="external"><script type="text/javascript">$('a[rel=external]').attr('target','_blank');</script>IpTv_Portal</a></li>
+            <li role="presentation" class="dropdown-header">Невинка</li>
+            <li><a href="/IpTv_Portal.php">IpTv_Portal</a></li>
             <li class="divider"></li>
             <li><a href="#">Zwiki IPTV</a></li>
           </ul>
@@ -129,18 +129,6 @@
         });
     });
 });></script>
-<div class="row">
-<div class="col-md-6">
-<div class="embed-responsive embed-responsive-4by3">
-<iframe class="embed-responsive-item" src="https://zabbix.ooonet.ru/zabbix.php?action=dashboard.view"></iframe>
-</div>
-</div>
-<div class="col-md-6">
-<div class="embed-responsive embed-responsive-4by3">
-<iframe class="embed-responsive-item" src="https://nagios.ooonet.ru/"></iframe>
-</div>
-</div>
-</div>
 </body>
 </html>
 
