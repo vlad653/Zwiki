@@ -80,8 +80,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Коммутаторы<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
+            <li><a href="http://localhost/Zwiki/tiki-index.php?page=%D0%9F%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0">Прошивка</a></li>
+            <li><a href="http://localhost/Zwiki/tiki-index.php?page=Snr-erd">Snr-erd</a></li>
             <li><a href="#">3</a></li>
             <li class="divider"></li>
             <li><a href="#">4</a></li>
@@ -102,12 +102,16 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Найти</button>
-      </form>
+      <form action="/Zwiki/tiki-searchresults.php" method="get" id="search-form" class="navbar-form navbar-right" role="form">
+	 <div class="form-group">
+	   <label class="sr-only">Поиск</label>
+	   <input id="highlight" name="highlight" class="form-control" accesskey="s" placeholder="Поиск" value="" type="text">
+	 </div>
+	 <div class="form-group"></div>
+           <input name="where" value="pages" type="hidden">
+	   <label class="findsubmit"><input class="btn btn-default" name="search" value="Вперед" type="submit">
+	   </label>
+       </form>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-09-19 15:59:51
+<?php /* Smarty version Smarty-3.1.21, created on 2017-09-20 14:58:58
          compiled from "/var/www/html/Zwiki/templates/tiki-wizard_admin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15901947059c13ef7e80d31-99268831%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:81913880659c28232163de2-93567027%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15901947059c13ef7e80d31-99268831',
+  'nocache_hash' => '81913880659c28232163de2-93567027',
   'function' => 
   array (
   ),
@@ -36,9 +36,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_59c13ef7eccda0_84791991',
+  'unifunc' => 'content_59c2823219b4e6_20728303',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c13ef7eccda0_84791991')) {function content_59c13ef7eccda0_84791991($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.html_body_attributes.php';
+<?php if ($_valid && !is_callable('content_59c2823219b4e6_20728303')) {function content_59c2823219b4e6_20728303($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.html_body_attributes.php';
 if (!is_callable('smarty_function_modulelist')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.modulelist.php';
 if (!is_callable('smarty_function_feedback')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.feedback.php';
 ?><!DOCTYPE html>
@@ -93,8 +93,8 @@ echo $_smarty_tpl->tpl_vars['prefs']->value['language'];
 	<div class="col-sm-12">
 		<?php /*  Call merged included template "wizard/wizard_bar_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("wizard/wizard_bar_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15901947059c13ef7e80d31-99268831');
-content_59c13ef7e967d5_94904312($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("wizard/wizard_bar_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '81913880659c28232163de2-93567027');
+content_59c28232174887_29764678($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wizard/wizard_bar_admin.tpl" */?>
 	</div>
@@ -117,8 +117,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	</div>
 	<?php /*  Call merged included template "wizard/wizard_bar_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("wizard/wizard_bar_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15901947059c13ef7e80d31-99268831');
-content_59c13ef7e967d5_94904312($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("wizard/wizard_bar_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '81913880659c28232163de2-93567027');
+content_59c28232174887_29764678($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wizard/wizard_bar_admin.tpl" */?>
 	</form>
@@ -142,9 +142,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php $_smarty_tpl->smarty->loadPlugin('Smarty_Internal_Debug'); Smarty_Internal_Debug::display_debug($_smarty_tpl); ?>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2017-09-19 15:59:51
+<?php /* Smarty version Smarty-3.1.21, created on 2017-09-20 14:58:58
          compiled from "/var/www/html/Zwiki/templates/wizard/wizard_bar_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_59c13ef7e967d5_94904312')) {function content_59c13ef7e967d5_94904312($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.icon.php';
+<?php if ($_valid && !is_callable('content_59c28232174887_29764678')) {function content_59c28232174887_29764678($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.icon.php';
 ?>
 <div class="row form-group">
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_bidi']=='y') {?>

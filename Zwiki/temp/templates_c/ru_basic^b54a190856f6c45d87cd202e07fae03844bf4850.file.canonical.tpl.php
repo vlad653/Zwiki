@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-09-19 15:59:22
+<?php /* Smarty version Smarty-3.1.21, created on 2017-09-20 14:58:50
          compiled from "/var/www/html/Zwiki/templates/canonical.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:49877760059c13eda89ddf9-92809006%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:157457633859c2822a861c05-48238425%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '49877760059c13eda89ddf9-92809006',
+  'nocache_hash' => '157457633859c2822a861c05-48238425',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_59c13eda8ce382_96432375',
+  'unifunc' => 'content_59c2822a882c75_25558008',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c13eda8ce382_96432375')) {function content_59c13eda8ce382_96432375($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.sefurl.php';
+<?php if ($_valid && !is_callable('content_59c2822a882c75_25558008')) {function content_59c2822a882c75_25558008($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.sefurl.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_canonical_url']=='y'&&isset($_smarty_tpl->tpl_vars['mid']->value)) {?>
 	<?php if ($_smarty_tpl->tpl_vars['mid']->value=='tiki-show_page.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-index_p.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-show_page_raw.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-all_languages.tpl'||$_smarty_tpl->tpl_vars['mid']->value=='tiki-show_content.tpl') {?>

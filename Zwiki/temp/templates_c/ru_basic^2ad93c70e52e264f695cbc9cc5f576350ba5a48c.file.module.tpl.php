@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-09-19 15:59:22
+<?php /* Smarty version Smarty-3.1.21, created on 2017-09-20 14:58:50
          compiled from "/var/www/html/Zwiki/templates/module.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7227471159c13eda8fa703-83611308%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:134639550459c2822a8a1fa8-78774384%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7227471159c13eda8fa703-83611308',
+  'nocache_hash' => '134639550459c2822a8a1fa8-78774384',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_59c13eda944b95_79063430',
+  'unifunc' => 'content_59c2822a8d3a60_48811597',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c13eda944b95_79063430')) {function content_59c13eda944b95_79063430($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/www/html/Zwiki/vendor_bundled/vendor/smarty/smarty/libs/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_59c2822a8d3a60_48811597')) {function content_59c2822a8d3a60_48811597($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/www/html/Zwiki/vendor_bundled/vendor/smarty/smarty/libs/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_icon')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.icon.php';
 if (!is_callable('smarty_block_remarksbox')) include '/var/www/html/Zwiki/lib/smarty_tiki/block.remarksbox.php';
 ?>

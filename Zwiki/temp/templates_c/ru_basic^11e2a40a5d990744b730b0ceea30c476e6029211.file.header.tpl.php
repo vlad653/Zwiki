@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2017-09-19 15:59:22
+<?php /* Smarty version Smarty-3.1.21, created on 2017-09-20 14:58:50
          compiled from "/var/www/html/Zwiki/templates/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:152636125059c13eda750e07-94501947%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:155774028459c2822a789986-89534196%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '152636125059c13eda750e07-94501947',
+  'nocache_hash' => '155774028459c2822a789986-89534196',
   'function' => 
   array (
   ),
@@ -72,9 +72,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_59c13eda895080_41340764',
+  'unifunc' => 'content_59c2822a85c311_25932744',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c13eda895080_41340764')) {function content_59c13eda895080_41340764($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_59c2822a85c311_25932744')) {function content_59c2822a85c311_25932744($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.truncate.php';
 if (!is_callable('smarty_modifier_tr_if')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.tr_if.php';
 if (!is_callable('smarty_function_breadcrumbs')) include '/var/www/html/Zwiki/lib/smarty_tiki/function.breadcrumbs.php';
 if (!is_callable('smarty_modifier_username')) include '/var/www/html/Zwiki/lib/smarty_tiki/modifier.username.php';
@@ -256,7 +256,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['index_next'] = $_smart
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['first']      = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == 1);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['last']       = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['total']);
 ob_start();?><?php echo $_smarty_tpl->tpl_vars['structure_path']->value[$_smarty_tpl->getVariable('smarty')->value['section']['ix']['index']]['page_alias'];?>
-<?php $_tmp1=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp1, null, 0);
+<?php $_tmp7=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp7, null, 0);
 endfor; endif;
 }
 if ($_smarty_tpl->tpl_vars['prefs']->value['site_title_location']=='only') {
@@ -342,7 +342,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['index_next'] = $_smart
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['first']      = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == 1);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['last']       = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['total']);
 ob_start();?><?php echo $_smarty_tpl->tpl_vars['structure_path']->value[$_smarty_tpl->getVariable('smarty')->value['section']['ix']['index']]['page_alias'];?>
-<?php $_tmp2=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp2, null, 0);
+<?php $_tmp8=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp8, null, 0);
 endfor; endif;
 }
 if (!empty($_smarty_tpl->tpl_vars['page_description_title']->value)) {
@@ -423,7 +423,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['index_next'] = $_smart
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['first']      = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == 1);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['last']       = ($_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['iteration'] == $_smarty_tpl->tpl_vars['smarty']->value['section']['ix']['total']);
 ob_start();?><?php echo $_smarty_tpl->tpl_vars['structure_path']->value[$_smarty_tpl->getVariable('smarty')->value['section']['ix']['index']]['page_alias'];?>
-<?php $_tmp3=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp3, null, 0);
+<?php $_tmp9=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["aliasname"] = new Smarty_variable($_tmp9, null, 0);
 endfor; endif;
 }
 if (!empty($_smarty_tpl->tpl_vars['page_description_title']->value)) {

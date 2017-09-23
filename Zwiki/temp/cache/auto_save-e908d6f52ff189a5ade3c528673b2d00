@@ -1,0 +1,81 @@
+~~#F00:::===__Прошить me3800X__===::~~
+
+archive download-sw tftp://10.20.254.17/me380x-universalk9-tar.151-2.EY4.tar
+
+~~#F00:__::Команда для того, чтобы свитч получал ip по dhcp::__~~
+config ipif System dhcp
+
+~~#F00:__::DES-3526::__~~
+download firmware_fromTFTP 10.20.254.17 DES3526R6_6.20.B21.had
+
+~~#F00:__::DES-3528(52) ver 3.00.B035::__~~
+download firmware_fromTFTP 10.20.254.17 DES35xx_3.10.B052.had image_id 1
+
+~~#F00:::__DGS-3000-28SC__::~~
+download firmware_fromTFTP 10.20.254.17 src_file DGS3000_28SC_Run_5_05_B005.had 
+
+~~#F00:::__DGS-3100-24/24TG__::~~
+download firmware 10.20.254.17 DGS-3100-xx-3.60.45.ros
+download firmware 10.20.254.17 DGS-3100-xx-3.60.44.ros
+download firmware 10.20.254.17 DGS-3100-xx-3.60.38.ros
+download firmware 10.20.254.17 DGS-3100-xx-3.60.24.ros
+
+~~#F00:::__DGS-3120-24SC A1/A2__::~~
+download firmware_fromTFTP 10.20.254.17 src_file DGS3120_Run_3_10_B016.had
+#download firmware_fromTFTP 10.20.254.17 src_file DGS3120_Run_3_00_B025.had
+
+~~#F00:::__DGS-3120-24SC B1/B2__::~~
+download firmware_fromTFTP 10.20.254.17 src_file DGS3120BX_Run_3_10_B516.had
+
+~~#F00:::__DGS-3612G__::~~
+download firmware_fromTFTP 10.20.254.17 src_file DGS36xxRun_2.84-B33.had
+
+~~#F00:::__DES-3200__::~~
+download firmware_fromTFTP 10.20.254.17 DES-3200R_1.84.B009.had image_id 1
+~~#F90:Hardware Version  C1:~~   download firmware_fromTFTP 10.20.254.17 src_file DES3200R_4.36.B008.had
+  
+~~#F90:Для того чтобы прошить на новую прошику сначало шьем этой:~~ download firmware_fromTFTP 10.20.254.17 src_file DES3200R_4.38.B000.had
+~~#F90:а потом этой:~~ download firmware_fromTFTP 10.20.254.17 src_file DES3200R_4.46.B006.had ~~#F90: ---C ревизия~~
+~~#F90:А ревизия сразу шьется, без B000. ~~
+download firmware_fromTFTP 10.20.254.17 src_file DES-3200R_1.88.B005.had ~~#F90:-- A ревизия~~
+
+~~#F00:::__DES-3028-3052__::~~
+download firmware_fromTFTP 10.20.254.17 DES_3028_52_V2.92-B03.had image_id 1
+config firmware image_id 1 boot_up
+
+~~#F00:::__DES-1210-28ME__::~~
+~~#F00:B3 - обращаем внимание не ревизию!~~
+download firmware_fromTFTP 10.20.254.17 DES-1210-28-B3_rev.hex
+~~#F00:B2~~http://localhost
+download firmware_fromTFTP 10.20.254.17  DES-1210-28-B2-6-10-B020.hex image_id 1
+
+~~#F00:::__DES-1210-52ME__::~~
+download firmware_fromTFTP 10.20.254.17  DES-1210-52ME-C1-20-03-B012.hex image_id 1
+
+~~#F00:::__DES-1228ME__::~~
+download firmware_fromTFTP 10.20.254.17 DES1228_Run_2_60_B005.had image_id 1
+download firmware_fromTFTP 10.20.254.17 DES1228_Run_2_63_B004.had image_id 1
+
+~~#F00:::__DGS-1210-28ME__::~~
+Текущая(вроде все пофиксили, проверено andrkul)
+download firmware_fromTFTP 10.20.254.17 DGS-1210-28ME-A1-6-13-B029-ALL.hex image_id 1
+ребутается постоянно
+download firmware_fromTFTP 10.20.254.17 DGS-1210-28ME-A1-6-13-B020-ALL.hex image_id 1
+прошивка, которая стоит у Вити на доме, ПОКА ЕЙ НЕ ШЬЕМ:
+download firmware_fromTFTP 10.20.254.17 DGS-1210-28ME-A1-6-11-R035B-ALL.hex image_id 1
+прошивка от китайцев нормальная (шьем этой)
+download firmware_fromTFTP 10.20.254.17 DGS-1210-28ME-A1-6-13-T009_2.hex image_id 1
+-Новая прошивка с ftp.dlink
+download firmware_fromTFTP 10.20.254.17 DGS-1210-28ME-A1-6-13-B036.hex image_id 1
+
+~~#F00:::__ELTEX mes 1124-1124m__::~~
+copy tftp://10.20.254.17/mes2000-1145.ros image
+boot system image-2
+reload
+
+~~#F00:::__Изменение загружаемого образа__::~~
+config firmware image_id 2 boot_up
+
+
+
+
